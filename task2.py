@@ -6,7 +6,6 @@ import time
 
 def f(x):
 	return (numpy.cos(x))/(1.+x*x)
-
 def f1(x):
 	return (-(numpy.sin(x))/(1.+x*x))-((2.*x*numpy.cos(x))/((1.+x*x)*(1.+x*x)))
 	
